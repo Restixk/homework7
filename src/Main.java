@@ -42,7 +42,7 @@ public class Main {
                 System.out.println("Месяц " + i + " " + (int) deferredNew);
             }
         }
-        deferredNew = 15000;//задача 7
+        deferredNew = 15000;//задача 6
         i = 0;
         while (i  <= 9 * 12 ){
             i = i +1;
@@ -51,7 +51,7 @@ public class Main {
                 System.out.println("Месяц " + i + " " + (int) deferredNew);
             }
         }
-        i = 3 ;
+        i = 3 ;//задача 7
         System.out.println("Сегодня пятница," + i + "-е число. Необходимо подготовить отчет");
         while ( i <= 31 ){
             if ( (i-3)  % 7 == 0 ){
@@ -59,7 +59,7 @@ public class Main {
             }
             i = i + 1;
         }
-        int pastYears = 1823;
+        int pastYears = 1823;// задача 8
         int futureYears = 2123;
         i = pastYears;
         while (pastYears <= futureYears){
